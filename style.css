@@ -8,7 +8,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem 0.15rem 2rem;
+    padding: 1rem 2rem 0.25rem 2rem;
     background: #f6f6f6;
 }
 
@@ -38,17 +38,18 @@
     height: 2rem;
 }
 
-.logo .menu{
+.logo button{
+    border: none;
+    background: #f6f6f6;
+}
+
+.logo button img{
     height: 1rem;
-    position: relative;
-    transform: translateY(0.5rem);
 }
 
 .searchbar{
     display: flex;
     height: 2rem;
-    /* padding: 0.25rem; */
-    /* margin: 1rem 2rem; */
     border-radius: 20px;
     border: 1px solid #000;
     justify-content: space-between;
@@ -63,7 +64,35 @@
 }
 
 .searchbar > img{
-    padding-top: 0.25rem;
+    padding-top: 0.35rem;
     height: 1.25rem;
     padding-right: 0.5rem;
+}
+
+.sidebar{
+    background-color: #f6f6f6;
+    width: 200px;
+    height: 100vh;
+}
+
+.sidebar ul{    
+    padding-left: 2rem;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.sidebar ul li{
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.7rem;
+}
+
+.sidebar ul li span{
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.sidebar ul li img{
+    width: 35px;
 }
