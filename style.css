@@ -45,6 +45,7 @@
 
 .logo button img{
     height: 1rem;
+    cursor: pointer;
 }
 
 .searchbar{
@@ -73,12 +74,14 @@
     background-color: #f6f6f6;
     width: 200px;
     height: 100vh;
+    transition: width 2s ease;
 }
 
 .sidebar ul{    
     padding-left: 2rem;
     list-style: none;
     padding-top: 1rem;
+    transition: padding-left 2s ease;
 }
 
 .sidebar ul li{
